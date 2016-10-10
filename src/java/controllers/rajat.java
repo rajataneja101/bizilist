@@ -40,7 +40,10 @@ public String viewcab(ModelMap map) {
 public String index1(ModelMap map) {
         return "index1";
 }
-  
+   @RequestMapping("/company")
+public String company(ModelMap map) {
+        return "company";
+} 
 
 }
 
